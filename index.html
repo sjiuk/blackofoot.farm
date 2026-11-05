@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blacko Foot Farm</title>
+<meta name="description" content="Blacko Foot Farm, Lancashire, UK. A smallholding in the heart of Pendle Witch Country in the Forest of Bowland.">
+<meta property="og:title" content="Blacko Foot Farm">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blackofoot.farm/">
+<meta property="og:locale" content="en_GB">
+<style>
+  :root { --bg:#56644D; --fg:#f5f5f5; --muted:#e6e6e6; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
+  main { max-width: 1000px; margin: 0 auto; padding: 3rem 1.25rem 2rem; }
+  header { text-align: center; margin-bottom: 2.5rem; }
+  h1 { font-size: 1.1rem; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 1rem; }
+  header p { max-width: 36rem; margin: 0 auto; font-size: 1.15rem; }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+  }
+  footer { text-align: center; margin-top: 3rem; color: var(--muted); font-size: .95rem; }
+  footer .mushroom { font-size: 1.8rem; display: block; margin-bottom: .75rem; }
+  address { font-style: normal; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Blacko Foot Farm, Lancashire, UK.</h1>
+    <p>We are a smallholding in the heart of Pendle Witch Country in the Area Of Outstanding Beauty, The Forest of Bowland.</p>
+  </header>
+
+  <section class="gallery" aria-label="Photos of the farm">
+    <img src="pics/tups.jpg"    alt="Tups on the farm"       loading="lazy">
+    <img src="pics/cock.jpg"    alt="A cockerel"             loading="lazy">
+    <img src="pics/rain-.jpg"       alt="Rain over the farm"     loading="lazy">
+    <img src="pics/vintage.jpg" alt="Vintage farm machinery" loading="lazy">
+    <img src="pics/brian.jpg"  alt="Brian"                  loading="lazy">
+    <img src="pics/view.jpg"   alt="The view from the farm" loading="lazy">
+    <img src="pics/cow.jpg"     alt="A cow"                  loading="lazy">
+    <img src="pics/bale.jpg"   alt="A bale"                 loading="lazy">
+  </section>
+
+  <footer>
+    <span class="mushroom" aria-hidden="true">🍄</span>
+    <address>Blacko Foot Farm, Blacko Bar Road, Roughlee Nelson, BB9 6NJ.</address>
+  </footer>
+</main>
+</body>
+</html>
